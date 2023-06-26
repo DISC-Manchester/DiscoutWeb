@@ -1,0 +1,13 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		MinWidth="210" MinHeight="110" MaxWidth="210" MaxHeight="110" 
+		x:Class="SquareSmash.renderer.Windows.PopUpWindow"
+		Title="New High Score" TransparencyLevelHint="AcrylicBlur" Background="Transparent"
+		ExtendClientAreaToDecorationsHint="True">
+	<StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Spacing="5" Margin="10">
+		<TextBlock Text="New High Score Enter Name:" />
+		<TextBox x:Name="TextInput" Width="200" />
+		<Button x:Name="OKButton" Content="OK" Width="100" Click="OnButtonClick" />
+	</StackPanel>
+</Window>
